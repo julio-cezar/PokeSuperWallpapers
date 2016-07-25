@@ -3,10 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fundo"
     tools:context="pokemongo.wallpaperfor.m.com.pokemongowallpapers.Wallpaper">
 
     <HorizontalScrollView
@@ -80,14 +77,16 @@
 
         <Button
             android:id="@+id/BPreview"
-            android:layout_width="161dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/preview" />
 
         <Button
             android:id="@+id/BsetWallpaper"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/definir" />
 
     </LinearLayout>
@@ -98,8 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/seletor_bt_compartilhar"
-        android:background="#626465" />
+        android:background="@drawable/seletor_bt_compartilhar" />
 
     <ImageButton
         android:id="@+id/IBSave"
@@ -107,8 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/IVDisplay"
         android:layout_toLeftOf="@+id/IBShare"
-        android:background="#626465"
-        android:src="@drawable/seletor_bt_salvar" />
+        android:background="@drawable/seletor_bt_salvar" />
 
     <TextView
         android:id="@+id/tvCategoria"

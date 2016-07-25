@@ -70,9 +70,9 @@ public class Wallpaper extends AppCompatActivity implements View.OnClickListener
         iniciarViews();
         setListeners();
 
-        toPhone = R.mipmap.ic_launcher;
-        uri = Uri.parse("android.resource://com.m.wallpaperfor.pokemongo/mipmap/ic_launcher");
-        display.setImageBitmap(decodeSampledBitmapFromResource(getResources(), R.mipmap.ic_launcher, 150, 150));
+        toPhone = R.drawable.icon_grande;
+        uri = Uri.parse("android.resource://com.m.wallpaperfor.pokemongo/drawable/icon_grande");
+        display.setImageBitmap(decodeSampledBitmapFromResource(getResources(), R.drawable.icon_grande, 380, 600));
 
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-7040951679419231/3579749103");
