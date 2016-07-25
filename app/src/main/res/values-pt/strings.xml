@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pokemon Go Papel de parede</string>
+    <string name="preview">Prever</string>
+    <string name="definir">Definir</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="rocket">Equipe Rocket</string>
+    <string name="misty">Misty</string>
+    <string name="brock">Brock</string>
+    <string name="set_successfully">Imagem Definida com Sucesso!</string>
+
+
+</resources>

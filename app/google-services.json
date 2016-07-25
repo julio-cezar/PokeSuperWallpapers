@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "780662277071",
+    "firebase_url": "https://pokemon-go-wallpapers.firebaseio.com",
+    "project_id": "pokemon-go-wallpapers",
+    "storage_bucket": "pokemon-go-wallpapers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780662277071:android:9650f89fd547ff8a",
+        "android_client_info": {
+          "package_name": "com.m.wallpaperfor.pokemongo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780662277071-s94e3lit79rcpu6ebv3jh6k0ma5te2iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-KcGA_IhFuPBYpgkKN7l5lKQrP0PPvEU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

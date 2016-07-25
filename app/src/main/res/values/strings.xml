@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pokemon Go Wallpapers</string>
+    <string name="preview">preview</string>
+    <string name="definir">Set Wallpaper</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="rocket">Team Rocket</string>
+    <string name="misty">Misty</string>
+    <string name="brock">Brock</string>
+    <string name="set_successfully">Image was set as Wallpaper Succesfully!</string>
+
+
+
+
+
+</resources>
