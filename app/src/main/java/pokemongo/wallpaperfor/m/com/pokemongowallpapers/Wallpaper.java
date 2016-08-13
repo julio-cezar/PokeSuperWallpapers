@@ -106,7 +106,7 @@ public class Wallpaper extends AppCompatActivity implements View.OnClickListener
                 break;
 
             case "pikachu":
-                tvCategoria.setText(R.string.misty);
+                tvCategoria.setText(R.string.pikachu);
                 image1.setImageBitmap(decodeSampledBitmapFromResource(getResources(), R.drawable.back_pikachu_1, 75, 75));
                 image2.setImageBitmap(decodeSampledBitmapFromResource(getResources(), R.drawable.back_pikachu_2, 75, 75));
                 image3.setImageBitmap(decodeSampledBitmapFromResource(getResources(), R.drawable.back_pikachu_3, 75, 75));
